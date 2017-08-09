@@ -7,7 +7,7 @@ var img=document.getElementById('sumo');
 var marginleft=0;
 function moveright(){
     marginleft=marginleft+5;
-    img.style.margin=marginleft+'px';
+    img.style.marginleft=marginleft+'px';
 }
 img.onclick=function(){
     var interval=setInterval(moveright,50);
