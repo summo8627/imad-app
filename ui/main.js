@@ -4,6 +4,11 @@ element.innerHTML='hi!! it\'s me your sumanth \n this is my first web app...!!';
 
 
 var img=document.getElementById('sumo');
+var marginright;
+function moveleft(){
+    marginright=marginright+10;
+    img.style.margin=marginright+'px';
+}
 img.onclick=function(){
     var interval=setInterval(moveleft,50);
 };
