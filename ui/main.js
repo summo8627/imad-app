@@ -5,5 +5,6 @@ element.innerHTML='hi!! it\'s me your sumanth \n this is my first web app...!!';
 
 var img=document.getElementById('sumo');
 img.onclick=function(){
+    var interval=setinterval(moveleft,50);
     img.style.marginleft='100px';
 };
